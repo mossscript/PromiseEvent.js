@@ -87,5 +87,3 @@ For full license details, see the LICENSE file included in the repository.
 
 © 2025 Mossscript  
 All rights reserved.
-
-See the full license details in the [LICENSE](./LICENSE) file.
