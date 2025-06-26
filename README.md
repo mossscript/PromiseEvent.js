@@ -2,14 +2,10 @@
 
 A lightweight utility that converts Promise-based workflows into event-driven flows.
 
----
-
 ## Overview
 
 **PromiseEvent.js** allows you to work with native JavaScript Promises while exposing an EventTarget-based API to listen for progress, resolution, rejection, and completion events.  
 This is useful when you want a more flexible event-driven approach around Promise operations without losing native Promise functionality.
-
----
 
 ## Features
 
@@ -19,8 +15,6 @@ This is useful when you want a more flexible event-driven approach around Promis
 - Minimal and dependency-free.
 - Supports event listeners and event properties (`onresolve`, `onreject`, etc).
 - Thorough input validation with meaningful error codes and messages.
-
----
 
 ## Usage
 
@@ -60,8 +54,6 @@ multi.onfinish = ({ results, errors }) => {
 }; 
 ``` 
 
----
-
 ## API Reference
 
 ### PromiseEvent(func)
@@ -86,8 +78,6 @@ func: A function with two arguments (resolve, reject) to create a new Promise.
 | **Properties**     | `.results`                              | Array of resolved results from the promises processed by `.all()`.                                   |
 |                    | `.errors`                               | Array of rejection errors from the promises processed by `.all()`.                                   |
 
----
-
 ## License
 
 This project is released under the Apache License 2.0.
@@ -99,5 +89,3 @@ For full license details, see the LICENSE file included in the repository.
 All rights reserved.
 
 See the full license details in the [LICENSE](./LICENSE) file.
-
----
